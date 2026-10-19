@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience | Scott Li</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- My custom styles (loaded after Bootstrap so they can override it) -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top site-nav" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Scott<span>.</span>Li</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#mainNav" aria-controls="mainNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="experience.html" aria-current="page">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item mt-2 mt-lg-0 ms-lg-2">
+                        <button id="themeToggle" type="button" class="btn btn-sm btn-outline-accent">☾ Dark</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1 class="mb-1">Experience &amp; Education</h1>
+            <p>Where I've worked, taught, and studied.</p>
+        </div>
+    </header>
+
+    <main class="container py-5">
+        <div class="row g-5">
+            <div class="col-12 col-lg-7">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item"><div class="card shadow-sm"><div class="card-body">
+                        <h3 class="h5 mb-0">MIS Teaching Assistant</h3>
+                        <p class="date-tag mb-2">University of Oklahoma &middot; Aug 2025 &ndash; Present</p>
+                        <ul class="mb-0">
+                            <li>Support a large course covering SQL, Python, and Excel.</li>
+                            <li>Grade assignments and give students written feedback.</li>
+                            <li>Built a Python tool to help check submissions against the rubric.</li>
+                        </ul>
+                    </div></div></div>
+
+                    <div class="timeline-item"><div class="card shadow-sm"><div class="card-body">
+                        <h3 class="h5 mb-0">Amazon Associate - Packer</h3>
+                        <p class="date-tag mb-2"> Amazon Fulfillment Center, OKC1 &middot; Oct 2023 &ndash; Present </p>
+                        <ul class="mb-0">
+                            <li>Process 200+ orders per shift while maintaining 99% accuracy.</li>
+                            <li>Sort 1,000+ shipments daily to ensure accurate and timely deliveries.</li>
+                            <li>Collaborate with team members to maintain workflow and resolve delays.</li>
+                        </ul>
+                    </div></div></div>
+
+                    <div class="timeline-item"><div class="card shadow-sm"><div class="card-body">
+                        <h3 class="h5 mb-0">Independent Security Projects</h3>
+                        <ul class="mb-0">
+                            <li>Built an Active Directory home lab with PowerShell provisioning and RBAC groups.</li>
+                            <li>Created PhishShield-AI, an AI-driven Chrome extension for phishing detection.</li>
+                        </ul>
+                    </div></div></div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-5">
+                <h2 class="section-title">Education</h2>
+                <div class="card card-accent shadow-sm mb-4"><div class="card-body">
+                    <h3 class="h5 mb-0">M.S., Management Information &amp; Technology</h3>
+                    <p class="date-tag mb-2">University of Oklahoma &middot; Accelerated program &middot; Expected May 2027</p>
+                    <p class="mb-0">Graduate coursework building on my undergraduate MIS foundation.</p>
+                </div></div>
+                <div class="card card-accent shadow-sm"><div class="card-body">
+                    <h3 class="h5 mb-0">B.B.A., Management Information Systems</h3>
+                    <p class="date-tag mb-2">University of Oklahoma &middot; May 2027</p>
+                    <p class="mb-0">GPA: 3.74</p>
+                </div></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+            <span>&copy; 2026 Scott Li</span>
+            <span>Built with HTML, CSS, JavaScript &amp; Bootstrap &middot;
+                <a href="https://github.com/Scott-Li-Projects" target="_blank" rel="noopener">GitHub</a></span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS bundle (navbar toggler, modal) must load before script.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

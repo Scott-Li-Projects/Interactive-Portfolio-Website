@@ -1,0 +1,44 @@
+[
+  {
+    "title": "PhishShield-AI",
+    "category": "Cybersecurity",
+    "description": "AI-driven Chrome extension that analyzes pages and flags likely phishing attempts before a user interacts with them.",
+    "technologies": ["JavaScript", "Chrome Extension", "AI/ML"],
+    "link": ""
+  },
+  {
+    "title": "IAM Home Lab",
+    "category": "Cybersecurity",
+    "description": "Windows Server 2022 domain controller in VirtualBox with Active Directory OUs, PowerShell provisioning scripts, RBAC groups, and simulated access reviews, documented in a GitHub README.",
+    "technologies": ["Active Directory", "PowerShell", "VirtualBox", "RBAC"],
+    "link": ""
+  },
+  {
+    "title": "The Food at Home",
+    "category": "Programming",
+    "description": "Team Streamlit app that turns the ingredients you already have into ranked recipe suggestions. I worked on input normalization and whole-word matching.",
+    "technologies": ["Python", "Streamlit"],
+    "link": ""
+  },
+  {
+    "title": "Homework Auto-Grader",
+    "category": "Programming",
+    "description": "Python tool built for TA work that compiles student submissions, checks them against a rubric, and flags anything it can't verify for manual review.",
+    "technologies": ["Python", ".NET SDK", "Automation"],
+    "link": ""
+  },
+  {
+    "title": "GL Dining Website Redesign",
+    "category": "Web",
+    "description": "Team website redesign for a two-restaurant dining client, including a sitemap, user flows, and high-fidelity Figma designs for the Blu homepage and menu page.",
+    "technologies": ["Figma", "UX Design", "Wireframing"],
+    "link": ""
+  },
+  {
+    "title": "Campus Bites",
+    "category": "Web",
+    "description": "Responsive restaurant-discovery page rebuilt with the Bootstrap navbar, grid, cards, and form controls, then customized with my own CSS.",
+    "technologies": ["HTML", "CSS", "Bootstrap"],
+    "link": ""
+  }
+]
